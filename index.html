@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <script>
+
+            function computerPlay (){
+                let x = ["Rock", "Paper", "Scissors"];
+                let randValue;
+                randValue = x[Math.floor(Math.random()*x.length)];
+                return randValue;
+            }
+
+            let rps = computerPlay();
+            console.log(rps);
+
+            
+            function singlePlay(){
+
+            }
+        </script>
+    </body>
+</html>
