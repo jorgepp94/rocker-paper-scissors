@@ -1,0 +1,14 @@
+.btns{
+
+    text-align: center;
+    
+}
+
+.btns button{
+    border: solid 1px black;
+}
+
+.btns p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
