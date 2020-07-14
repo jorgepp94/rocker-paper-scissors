@@ -8,11 +8,40 @@
     
     <body>
         <div class="btns">
-            <p>Please, select your weapon.</p>
-            <button id="idRock">Rock</button>
-            <button id="idPaper">Paper</button>
-            <button id="idScissors">Scissors</button>
+            <p>PLEASE SELECT YOUR WEAPON</p>
+            <H5 style="font-weight: lighter; font-size: medium;">The winner is the first who gets 5 points</H5>
+            <button id="idRock">Rock<img src="/imgs/rock.png" alt="Rock"></button>
+            <button id="idPaper">Paper<img src="/imgs/paper-icon-grey.png" alt="Paper"></button>
+            <button id="idScissors">Scissors<img src="/imgs/rock-paper-scissors-png-11.png" alt=""></button>
+
+            <div class="liveChoices">
+                <div>YOUR CHOICE: 
+                    <div id="playerChoice">
+
+                    </div>
+                </div>
+                <div>PC CHOICE: 
+                    <div id="pcChoice">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="liveGame">
+                <div id="player">PLAYER POINTS
+                    <div id="playerPoints">0</div>
+                </div>
+                <div id="pc">PC POINTS
+                    <div id="pcPoints">0</div>
+                </div>
+            </div>
+
+            <div class="matchWinner"></div>
+            <button id="reset-button" onclick="reloadPage()">Click Here to Start Again</button>
         </div>
+        
         
 
 
